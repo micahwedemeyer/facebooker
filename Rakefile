@@ -10,7 +10,7 @@ end
 
 require 'lib/facebooker/version'
 
-HOE = Hoe.spec('facebooker') do
+HOE = Hoe.spec('facebooker-micah') do
   self.version = Facebooker::VERSION::STRING
   self.rubyforge_name = 'facebooker'
   developer 'Chad Fowler',    'chad@chadfowlwer.com'
